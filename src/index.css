@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*,*::before,*::after {
+    box-sizing: border-box;
+}
+.wrapper {
+    @apply max-w-screen-lg w-11/12 mx-auto 
+}
+
+.card-img-box {
+    /* flex-grow: 2;
+    flex-basis: 280px; */
+    flex: 2 320px;
+} 
+
+.card-img-box > img {
+    min-height: 340px;
+}
+
+.card-text {
+    /* flex-grow: 5;
+    flex-basis: 420px; */
+    flex: 5 340px;
+}
+
+
